@@ -42,7 +42,7 @@ flecheDroite.addEventListener ("click", () => {
 });
 	
 /* GESTION DE LA FLECHE GAUCHE */
-/* flecheGauche.addEventListener ("click", () => {
+flecheGauche.addEventListener ("click", () => {
 	console.log ("Vous avez cliqué sur la flèche gauche")	
 	if(index===0)index=4;
 	index=index-1;
@@ -55,4 +55,4 @@ flecheDroite.addEventListener ("click", () => {
 	}
 	listeDot[index].className="dot dot_selected";
 	
-}); */
+});
